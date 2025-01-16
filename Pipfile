@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+gym-aloha = "*"
+gym-xarm = "*"
+gym-pusht = "*"
+torch = "*"
+lerobot = {extras = ["dynamixel"], file = ".", editable = true}
+
+[dev-packages]
+ipykernel = "*"
+
+[requires]
+python_version = "3.10"
+python_full_version = "3.10.15"
