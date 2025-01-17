@@ -4,8 +4,8 @@ from lerobot.common.robot_devices.motors.dynamixel import DynamixelMotorsBus
 # leader_port = "/dev/ttyACM0"
 # follower_port = "/dev/ttyACM1"
 # Mac
-leader_port = "usbmodem58760436821"
-follower_port = "usbmodem58760431881"
+leader_port = "/dev/tty.usbmodem58760436821"
+follower_port = "/dev/tty.usbmodem58760431881"
 
 leader_arm = DynamixelMotorsBus(
     port=leader_port,
